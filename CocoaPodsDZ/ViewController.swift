@@ -9,11 +9,27 @@ import UIKit
 
 class ViewController: UIViewController {
 
-    override func viewDidLoad() {
-        super.viewDidLoad()
-        // Do any additional setup after loading the view.
+    @IBOutlet var coreAnimationView: UIView!
+    
+    @IBOutlet var preset: UILabel!
+    @IBOutlet var force: UILabel!
+    @IBOutlet var duration: UILabel!
+    
+    
+    
+    
+    
+    
+    @IBAction func runCoreAnimation(_ sender: UIButton) {
+        
+        sender.pulsate()
+        
+         
     }
-
+    
+    
+    
+    
 
 }
 
