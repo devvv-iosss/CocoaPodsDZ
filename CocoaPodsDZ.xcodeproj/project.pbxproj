@@ -3,7 +3,7 @@
 	archiveVersion = 1;
 	classes = {
 	};
-	objectVersion = 50;
+	objectVersion = 51;
 	objects = {
 
 /* Begin PBXBuildFile section */
@@ -14,6 +14,8 @@
 		843CCB102639436100F1C7C6 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 843CCB0F2639436100F1C7C6 /* Assets.xcassets */; };
 		843CCB132639436100F1C7C6 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 843CCB112639436100F1C7C6 /* LaunchScreen.storyboard */; };
 		843CCB1C2639447800F1C7C6 /* ?.swift in Sources */ = {isa = PBXBuildFile; fileRef = 843CCB1B2639447800F1C7C6 /* ?.swift */; };
+		846D665026557D2C00B10FC1 /* DataManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 846D664F26557D2C00B10FC1 /* DataManager.swift */; };
+		846D665326557E1C00B10FC1 /* Animation.swift in Sources */ = {isa = PBXBuildFile; fileRef = 846D665226557E1C00B10FC1 /* Animation.swift */; };
 		84744A40265421CD007433F0 /* Extension + UIButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = 84744A3F265421CD007433F0 /* Extension + UIButton.swift */; };
 		8778F2DCD98E98086ED5ADAB /* Pods_CocoaPodsDZ.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A303E481256B685A9BBA727D /* Pods_CocoaPodsDZ.framework */; };
 /* End PBXBuildFile section */
@@ -29,6 +31,8 @@
 		843CCB122639436100F1C7C6 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		843CCB142639436100F1C7C6 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		843CCB1B2639447800F1C7C6 /* ?.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "?.swift"; sourceTree = "<group>"; };
+		846D664F26557D2C00B10FC1 /* DataManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DataManager.swift; sourceTree = "<group>"; };
+		846D665226557E1C00B10FC1 /* Animation.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Animation.swift; sourceTree = "<group>"; };
 		84744A3F265421CD007433F0 /* Extension + UIButton.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Extension + UIButton.swift"; sourceTree = "<group>"; };
 		A303E481256B685A9BBA727D /* Pods_CocoaPodsDZ.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_CocoaPodsDZ.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		B158AC2D42B7897D7917D4B7 /* Pods-CocoaPodsDZ.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-CocoaPodsDZ.release.xcconfig"; path = "Target Support Files/Pods-CocoaPodsDZ/Pods-CocoaPodsDZ.release.xcconfig"; sourceTree = "<group>"; };
@@ -76,6 +80,8 @@
 				843CCB0F2639436100F1C7C6 /* Assets.xcassets */,
 				843CCB112639436100F1C7C6 /* LaunchScreen.storyboard */,
 				843CCB142639436100F1C7C6 /* Info.plist */,
+				846D664F26557D2C00B10FC1 /* DataManager.swift */,
+				846D665226557E1C00B10FC1 /* Animation.swift */,
 			);
 			path = CocoaPodsDZ;
 			sourceTree = "<group>";
@@ -94,7 +100,6 @@
 				650E8DBC5D50B853CF10CA89 /* Pods-CocoaPodsDZ.debug.xcconfig */,
 				B158AC2D42B7897D7917D4B7 /* Pods-CocoaPodsDZ.release.xcconfig */,
 			);
-			name = Pods;
 			path = Pods;
 			sourceTree = "<group>";
 		};
@@ -213,9 +218,11 @@
 			buildActionMask = 2147483647;
 			files = (
 				843CCB0B2639435E00F1C7C6 /* ViewController.swift in Sources */,
+				846D665026557D2C00B10FC1 /* DataManager.swift in Sources */,
 				84744A40265421CD007433F0 /* Extension + UIButton.swift in Sources */,
 				843CCB1C2639447800F1C7C6 /* ?.swift in Sources */,
 				843CCB072639435E00F1C7C6 /* AppDelegate.swift in Sources */,
+				846D665326557E1C00B10FC1 /* Animation.swift in Sources */,
 				843CCB092639435E00F1C7C6 /* SceneDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;

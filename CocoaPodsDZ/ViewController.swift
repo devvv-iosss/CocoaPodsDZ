@@ -5,31 +5,54 @@
 //  Created by Vladimir Syleimanov on 28.04.2021.
 //
 
-import UIKit
+import Spring
 
 class ViewController: UIViewController {
 
-    @IBOutlet var coreAnimationView: UIView!
+    @IBOutlet var springAnimationView: SpringView!
     
-    @IBOutlet var preset: UILabel!
-    @IBOutlet var force: UILabel!
-    @IBOutlet var duration: UILabel!
+    @IBOutlet var label: UILabel!
+
+//
+//    let animation = Animation(animation: <#String#>, force: <#Int#>, duration: <#Int#>)
+//
     
-    
-    
-    
-    
-    
-    @IBAction func runCoreAnimation(_ sender: UIButton) {
-        
-        sender.pulsate()
-        
-         
+    override func viewDidLoad() {
+        super.viewDidLoad()
+//        label.text = animation.allParameters
     }
     
     
     
+    @IBAction func runSpringAnimation(_ sender: UIButton) {
+        
+        
+ 
+        
+        
+        
+        
+        
+        
+//        springAnimationView.animation = "morph"
+//        springAnimationView.curve = "easeInOut"
+//
+//        springAnimationView.animate()
+        
+        
+        
+ 
+        
+        springAnimationView.animate()
+
+            
+            
+            
+        }
+        
+        
+        
+    }
     
 
-}
 
